@@ -1,0 +1,17 @@
+http://windatlas.xyz/api/wind/?lat=51.626&lon=1.496&height=100&date_from=2019-01-01&date_to=2019-01-31
+returns:
+metadata: {'mean_wind_speed': '9.17 (IEC II - Medium Wind)', 'lat': '51.626', 'lon': '1.496', 'height': '100', 'date_from': '2019-01-01', 'date_to': '2019-01-31'}
+
+http://windatlas.xyz/api/wind/?lat=-46.4178708&lon=168.3614659&height=100&date_from=2019-01-01&date_to=2019-01-31
+returns:
+metadata: {'mean_wind_speed': '9.08 (IEC II - Medium Wind)', 'lat': '-46.4178708', 'lon': '168.3614659', 'height': '100', 'date_from': '2019-01-01', 'date_to': '2019-01-31'}
+
+ECMWF
+{
+    "url"   : "https://api.ecmwf.int/v1",
+    "key"   : "63a176a34fe1c38298db122400ef4d57",
+    "email" : "brucedc@uw.edu"
+}
+
+CERA-SAT:
+10 metre U wind component
